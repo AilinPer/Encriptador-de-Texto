@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+nav{
+    width: 100%;
+    background-color: rgb(245, 179, 196);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 15%;
+    margin-left: 5%;
+}
+nav h1{
+    text-align: right;
+    margin: 5%;
+    font-size: 1.1rem;
+    color: rgb(175, 103, 241);
+    font-family: 'Times New Roman', Times, serif;
+}
+main{
+    width: 100%;
+    padding: 7% 5%;
+}
+#texto-des{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #555;
+    padding: 10px;
+    background-color: rgb(250, 255, 255);
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+.botones-en{
+    text-align: center;
+}
+.botones-en button{
+    font-size: 1rem;
+    padding: 2%;
+    background-color: rgb(67, 132, 230);
+    border: none;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.botones-en .en{
+    margin: 5%;
+}
+.texto-encriptado{
+    font-size: 1rem;
+    text-align: justify;
+    padding-bottom: 10%;
+}
+.texto-encriptado .encriptado{
+    padding-bottom: 5%;
+}
+.encriptado{
+    padding-bottom: 5%;
+    background-color:rgb(250, 255, 255);
+    border-radius: 10px;
+    border: 2px solid #ccc;
+}
+.encriptado p{
+    margin: 0 5%;
+    padding-top: 5%;
+}
+.botones{
+    text-align: center;
+}
+.botones button{
+    font-size: 1rem;
+    padding: 2%;
+    background-color: rgb(67, 132, 230);
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+.botones .co{
+    margin: 5%;
+}
+@media (min-width:429px)  and (max-width:600px){
+    nav h1{
+        text-align: right;
+        font-size: 1.5rem;
+        color: rgb(175, 103, 241);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .texto-encriptado{
+        font-size: 1.1rem;
+        text-align: justify;
+        padding-bottom: 10%;
+    }
+}
+@media (min-width:601px)  and (max-width:700px){
+    nav h1{
+        text-align: right;
+        font-size: 2rem;
+        color: rgb(175, 103, 241);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .botones-en button{
+        font-size: 1.3rem;
+        padding: 3%;
+        background-color: rgb(67, 132, 230);
+        border: none;
+        color: white;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    }
+    .texto-encriptado{
+        font-size: 1.2rem;
+        text-align: justify;
+        padding-bottom: 10%;
+    }
+    .botones button{
+        font-size: 1.3rem;
+        padding: 3%;
+        background-color: rgb(67, 132, 230);
+        border: none;
+        color: white;
+        cursor: pointer;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+        text-align: center;
+    }
+}
+@media (min-width:701px)  and (max-width:900px){
+    nav h1{
+        text-align: right;
+        font-size: 2.5rem;
+        color: rgb(175, 103, 241);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .botones-en button{
+        font-size: 1.3rem;
+        padding: 3%;
+        background-color: rgb(67, 132, 230);
+        border: none;
+        color: white;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    }
+    .texto-encriptado{
+        font-size: 1.3rem;
+        text-align: justify;
+        padding-bottom: 10%;
+    }
+    .botones button{
+        font-size: 1.3rem;
+        padding: 3%;
+        background-color: rgb(67, 132, 230);
+        border: none;
+        color: white;
+        cursor: pointer;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+        text-align: center;
+    }
+}
+@media (min-width:901px)  and (max-width:1280px){
+    nav h1{
+        text-align: right;
+        font-size: 3.5rem;
+        color: rgb(175, 103, 241);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .botones-en button{
+        font-size: 2.5rem;
+        padding: 3%;
+        background-color: rgb(67, 132, 230);
+        border: none;
+        color: white;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    }
+    .texto-encriptado{
+        font-size: 2.5rem;
+        text-align: justify;
+        padding-bottom: 10%;
+    }
+    .botones button{
+        font-size: 2.5rem;
+        padding: 3%;
+        background-color: rgb(67, 132, 230);
+        border: none;
+        color: white;
+        cursor: pointer;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+        text-align: center;
+    }
+}
+@media (min-width:1281px)  and (max-width:1500px){
+    nav{
+        width: 100%;
+        height: 70%;
+        background-color: rgb(245, 179, 196);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav img{
+        width: 15%;
+        /* margin: 5%; */
+    }
+    nav h1{
+        text-align: right;
+        margin: 5%;
+        font-size: 1.1rem;
+        color: rgb(175, 103, 241);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    nav h1{
+        text-align: right;
+        font-size: 3rem;
+        color: rgb(175, 103, 241);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .botones-en button{
+        font-size: 1.5rem;
+        padding: 3%;
+        background-color: rgb(67, 132, 230);
+        border: none;
+        color: white;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    }
+    .texto-encriptado{
+        font-size: 1.5rem;
+        text-align: justify;
+        padding-bottom: 10%;
+    }
+    .botones button{
+        font-size: 1.5rem;
+        padding: 3%;
+        background-color: rgb(67, 132, 230);
+        border: none;
+        color: white;
+        cursor: pointer;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+        text-align: center;
+    }
+}
