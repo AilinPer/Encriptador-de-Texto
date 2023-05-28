@@ -14,12 +14,12 @@ nav{
     align-items: center;
 }
 nav img{
-    width: 15%;
+    width: 12%;
     margin-left: 5%;
 }
 nav h1{
     text-align: right;
-    margin: 5%;
+    margin-right: 2%;
     font-size: 1.1rem;
     color: rgb(175, 103, 241);
     font-family: 'Times New Roman', Times, serif;
@@ -35,10 +35,10 @@ main{
     font-size: 20px;
     font-weight: bold;
     color: #555;
-    padding: 10px;
+    padding: 15px;
     background-color: rgb(250, 255, 255);
     border: 2px solid #ccc;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 .botones-en{
     text-align: center;
@@ -220,15 +220,8 @@ main{
         align-items: center;
     }
     nav img{
-        width: 15%;
+        width: 10%;
         /* margin: 5%; */
-    }
-    nav h1{
-        text-align: right;
-        margin: 5%;
-        font-size: 1.1rem;
-        color: rgb(175, 103, 241);
-        font-family: 'Times New Roman', Times, serif;
     }
     nav h1{
         text-align: right;
@@ -262,5 +255,14 @@ main{
         border-radius: 10px;
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
         text-align: center;
+    }
+    main{
+        display: grid; 
+        grid-auto-columns: 1fr; 
+        grid-auto-rows: 1fr; 
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows: 1fr; 
+        gap: 5%;
+        margin-top: 6%;
     }
 }
